@@ -3,15 +3,15 @@
     margin-right: 50px !important;
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 5px;
+    color: rgb(196, 132, 177) !important;
     
 
 }
 
 .navbar-brand {
     margin-left: 50px;
-    letter-spacing: 5px;
     font-size: 22px;
+    color: rgb(196, 132, 177) !important;
     
     
 }
@@ -19,4 +19,21 @@
 .nav-item {
     margin-right: 20px;
     
+}
+
+.profile-image {
+    height: 250px;
+    border: solid rgb(196, 132, 177) 5px;
+}
+
+h1 {
+    font-size: 40px !important;
+}
+
+.spacer {
+    letter-spacing: 5px;
+}
+
+.profile-image {
+    justify-content:end;
 }

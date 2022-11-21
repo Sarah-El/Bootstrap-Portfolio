@@ -86,10 +86,13 @@ h2 {
 
 .row {
     padding: 20px;
+    border: solid red 5px;
 }
 
 .col {
     padding: 20px;
+    border: solid green 5px;
+    background-color: var(--pink-col);
 }
 
 .card {
@@ -101,6 +104,12 @@ h2 {
 
 .btn-primary:hover {
     background-color: rgb(113, 55, 103);
+}
+
+.container2 {
+    background-color: white;
+    padding: 50px;
+
 }
 
 @media only screen and (max-width: 769px) {

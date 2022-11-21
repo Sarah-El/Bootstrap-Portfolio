@@ -1,19 +1,20 @@
+:root {
+    --pink-col: rgb(158, 43, 123);
+}
+
+
 .navbar-nav {
     margin-left: auto;
     margin-right: 50px !important;
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(196, 132, 177) !important;
-    
-
+    color: var(--pink-col) !important;
 }
 
 .navbar-brand {
     margin-left: 50px;
     font-size: 22px;
-    color: rgb(196, 132, 177) !important;
-    
-    
+    color: var(--pink-col) !important;    
 }
 
 .nav-item {
@@ -23,17 +24,60 @@
 
 .profile-image {
     height: 250px;
-    border: solid rgb(196, 132, 177) 5px;
+    border-radius: 50%;
+    border: solid var(--pink-col) 5px;
+    margin-right: 50px;
 }
 
 h1 {
     font-size: 40px !important;
+    color: var(--pink-col);
+    font-weight: bold !important;
+    background-color: aliceblue;
+    margin: 50px; 
 }
 
 .spacer {
     letter-spacing: 5px;
 }
 
-.profile-image {
-    justify-content:end;
+.jumbotron {
+    display: flex;
+    background-image: url(../Images/Hero\ image-min.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(70vh - 25px);
+    background-position: none;
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;  
 }
+
+.col {
+    display: flex;
+    justify-content: center;
+    border: solid 5px green;
+}
+
+.row {
+    display: flex;
+    flex-wrap:
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px red;
+}
+
+.btn {
+    margin: auto;
+    background-color: var(--pink-col);
+    text-align: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 769px) {
+    .profile-image {
+      display: none;
+    }
+  }

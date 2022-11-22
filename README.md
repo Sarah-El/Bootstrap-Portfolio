@@ -34,8 +34,7 @@ Please refer to the licence in the repo
 https://sarah-el.github.io/Bootstrap-Portfolio/
 
 ## Screenshots
-<img width="1440" alt="Screenshot 2022-11-22 at 15 51 29" src="https://user-images.githubusercontent.com/117095370/203360294-2a032230-612d-474d-a1c7-fe9ec4390075.png">
+![image](https://user-images.githubusercontent.com/117095370/203360843-6afe9925-48d2-4a1a-99d6-6f94e90d8157.png)
 <img width="1391" alt="Screenshot 2022-11-22 at 15 51 50" src="https://user-images.githubusercontent.com/117095370/203360432-2fa40f4d-a272-4c27-999d-c06aab49f265.png">
 <img width="1400" alt="Screenshot 2022-11-22 at 15 52 18" src="https://user-images.githubusercontent.com/117095370/203360486-12805da4-4ea1-4ff6-9f49-c57b97fcb4d8.png">
 <img width="1392" alt="image" src="https://user-images.githubusercontent.com/117095370/203360675-cc113e79-dd7d-4e96-97d7-f69912e700e5.png">
-

@@ -28,7 +28,7 @@
 }
 
 a:hover {
-    background-color: white;
+    background-color: var(--dark-pink);
   }
 
 .profile-image {
@@ -140,7 +140,7 @@ h2 {
     color: var(--dark-pink);
 }
 
-li a {
+a {
     color: var(--dark-pink);
 }
 
@@ -159,7 +159,7 @@ footer {
 }
 
 footer p {
-    color: var(--pink-col);
+    color: var(--dark-pink);
     font-weight:600;
 }
 

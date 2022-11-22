@@ -1,5 +1,6 @@
 :root {
     --pink-col: rgb(176, 140, 167);
+    --dark-pink: rgb(113, 55, 103);
 }
 
 
@@ -68,13 +69,29 @@ h1 {
     vertical-align: middle;
 }
 
-/* .btn-primary:hover {
+.container-about {
+    padding: 50px 150px 50px 150px;
     background-color: var(--pink-col);
-    border: var(--pink-col);
-} */
+}
 
-body {
+.container-about h2 {
+    color: var(--pink-col);
+    text-decoration: underline var(--pink-col);
+    text-underline-offset: 10px;
+}
+
+.container2 {
     background-color: var(--pink-col);
+}
+
+#container-contact {
+    background-color: white;
+}
+
+.container h2 {
+    color: var(--pink-col);
+    text-decoration: underline var(--pink-col);
+    text-underline-offset: 10px;
 }
 
 h2 {
@@ -102,24 +119,48 @@ h2 {
 }
 
 .card-body {
-    color: rgb(113, 55, 103)
+    color: var(--dark-pink);
 }
 
 .btn-primary:hover {
-    background-color: rgb(113, 55, 103);
+    background-color: var(--dark-pink);
 }
 
 .container2 {
     padding: 50px;
 }
 
+#container-contact {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+
+#container-contact p {
+    color: var(--dark-pink);
+}
+
+li a {
+    color: var(--dark-pink);
+}
+
+li a:hover{
+    color: var(--pink-col);
+    background-color: var(--dark-pink);
+}
+
+#container-contact li {
+    display: inline;
+    padding-right: 50px;
+  }
 
 footer {
     text-align: center;
 }
 
 footer p {
-    color: white;
+    color: var(--pink-col);
+    font-weight:600;
 }
 
 @media only screen and (max-width: 769px) {
@@ -128,7 +169,7 @@ footer p {
     }
   }
 
-  @media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) {
     h1 {
       font-size: 35px !important;
     }
